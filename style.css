@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#menusuperior {
+  text-align: center;
+  padding: 20px;
+}
+
+#logosize {
+  width: 300px;
+  height: auto;
+}
+
+#titulosuperior, #textosuperior {
+  color: aliceblue;
+  text-align: center;
+}
+
+#menuinformacional {
+  background-color: rgb(218, 216, 213);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+#menuinformacional img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#menuinformacional p {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+#titulovideo {
+  color: aliceblue;
+  margin-top: 50px;
+}
+
+#textovideo {
+  color: aliceblue;
+}
+
+#secaovideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+  background-color: blueviolet;
+  padding: 50px;
+  overflow: hidden;  
+}
+
+#titulocarrossel {
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+#div-cards {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card {
+  width: 500px;  
+  height: auto;
+  display: block;
+}
+
+
+.seta {
+  cursor: pointer;
+  height: 40px;  
+  width: 40px;   
+  transition: transform 0.3s ease-in-out;
+}
+
+#setaesquerda, #setadireita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#setaesquerda:hover {
+  transform: translateX(-10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+#setadireita:hover {
+  transform: translateX(-10px);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.7);
+}
+
+#formulario {
+ text-align: center;
+}
+
+#tituloformulario {
+  color: aliceblue;
+  font-size: 25px;
+  margin: 25px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin: 15px;
+  border: 3px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: blueviolet;
+  color: rgb(186, 188, 190);
+  border: 0px;
+  border-radius: 7px;
+  width: 300px;
+  height: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(185, 151, 218);
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px  rgb(252, 252, 252);;
+  transition-duration: 0.5s;
+}

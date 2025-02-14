@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  
+  <title>AJR Central</title>
+</head>
+<body>
+  <!--MENU SUPERIOR-->
+  <div id="menusuperior">
+    <img id="logosize" src="images/logo.svg" alt="">
+    <h1 id="titulosuperior">
+      AJR CENTRAL
+    </h1>
+    <p id="textosuperior">Conheça nossa banda formada por <br>
+      jovens da Umademats Camapuã </p>
+  </div>
+
+  <!--MENU INFORMACIONAL-->
+  <div id="menuinformacional">
+    <img src="icones/guitar.svg" alt="">
+    <p>Somos do Worship</p>
+    <img src="icones/place.svg" alt="">
+    <p>Camapuã/MS</p>
+    <img src="icones/pray.svg" alt="">
+    <p>Levando o evangelho</p>
+  </div>
+
+  <!--SEÇÃO VIDEO-->
+  <div id="secaovideo">
+    <iframe id="video" width="315" height="560" src="https://www.youtube.com/embed/nvWjgP2ZELY" title="AJR Central , ministração com jovens IEADMS Santa Fé" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div>
+      <h1 id="titulovideo">
+        O Louvor que nos aproxima de Deus
+      </h1>
+      <p id="textovideo">
+        Momento de ministração com nossos irmãos <br>
+        do Bairro Santa Fé no Setor H <br>
+        do nosso ministério IEADMS em Campo Grande/MS <br>  
+      </p>
+    </div>
+  </div>
+
+  <!--CARROSSEL-->
+  <div id="carrossel">
+    <h1 id="titulocarrossel">
+      Conheça nosso grupo...
+    </h1>
+    
+    <!--DIVISAO DOS CARDS-->
+    <div id="div-cards">
+      <img id="setaesquerda" class="seta" src="./icones/setaesquerda.svg" alt="" onclick="RolarParaEsquerda()">
+      <img id="san" class="card" src="./cards/san.svg" alt="San">
+      <img id="hadassa" class="card" src="./cards/hadassa.svg" alt="Hadassa">
+      <img id="daniel" class="card" src="./cards/daniel.svg" alt="Daniel">
+      <img id="talita" class="card" src="./cards/talita.svg" alt="Talita">
+      <img id="setadireita" class="seta" src="./icones/setadireita.svg" alt="" onclick="RolarParaDireita()">
+    </div>
+  </div>
+
+  <!--FORMULARIO-->
+  <div id="formulario">
+    <h1 id="tituloformulario">Cadastre-se para ficar por dentro das novidades</h1>
+    <form action="https://formspree.io/f/xqaelkoj" method="post">
+      <input type="text" placeholder="Nome" name="Nome" required> <br>
+      <input type="email" placeholder="E-mail" name="E-mail" required> <br>
+      <input type="number" placeholder="Telefone"> <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
